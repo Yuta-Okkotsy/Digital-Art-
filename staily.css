@@ -1,0 +1,137 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: rgb(27, 26, 26);
+    padding: 20px;
+    opacity: 0;
+    transform: translateY(50);
+    animation: head 1s forwards;
+}
+@keyframes head{
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+nav{
+    display: flex;
+    gap: 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: blueviolet;
+    transition: o.5s;
+}
+.head-btn{
+    background-color: deepskyblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px 15px 30px;
+    cursor: pointer;
+}
+.head-btn:hover{
+    transition: 0.5s;
+    transform: translateY(-3px);
+    background-color: blueviolet;
+}
+.hero-btn{
+    background-color: deepskyblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px 15px 30px;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    transition: 0.5s;
+    transform: translateY(-3px);
+    background-color: blueviolet;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 30px;
+    color: white;
+    background-color: rgb(7, 7, 29);
+}
+.hero-image2{
+    width: 450px;
+}
+
+.hero-text{
+    margin-top: 60px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 30px;
+    color: white;
+    background-color: rgb(3, 4, 29);
+}
+.logos{
+    background-color: rgb(7, 7, 29);
+    display: flex;
+    justify-content: center;
+    gap: 50px   ;
+}
+.logos img{
+    width: 200px;
+}
+
+.main-div{
+    background-color: rgb(7, 7, 20);
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items:center ;
+}
+.main-text h2{
+    font-size: 40px;
+}
+.main-text p{
+    font-size: 16px;
+    margin: 10px 0 40px 0;
+}
+.slide{
+    background-color: rgb(7, 7, 29);
+    color: white;
+    display: flex;
+    gap: 40px;
+}
+.card{
+    width: 300px;
+    height: 310px;
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.brr{
+    background-color: rgb(7, 7, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: white;
+}
+.brr h2{
+    font-size: 40px;
+}
+.rrr{
+    display: flex;
+    background-color: rgb(7, 7, 29);
+    color: white;
+    justify-content: center;
+    gap: 50px;
+}
