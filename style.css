@@ -1,0 +1,178 @@
+body{
+    background-color: black;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.d{
+    width: 650px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 94px; */
+    color: white;
+}
+.d h1{
+    font-size: 48px;
+}
+.d p{
+    font-size: 16px;
+}
+.btn-1{
+    display: flex;
+    align-items: center;
+    background-color: hsla(67, 89%, 50%, 1);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 10px;
+    border: 1px solid black;
+    font-size: 17px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: white;
+}
+.logos h1{
+    color: greenyellow;
+}
+.logos p{
+    color: white;
+}
+.logos{
+    color: white;
+}
+.hero2{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    color: white;
+}
+.char{
+    width: 300px;
+    height: 450px;
+    background:linear-gradient(rgb(39, 49, 84));
+    border: none;
+    border: 4px solid black;
+    border-radius: 20px ;
+    text-align: center;
+    color: white;
+}
+.char img{
+    width: 250px;
+    height: 250px;
+}
+.hero3{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.btn2{
+    background-color:rgb(39, 49, 84) ;
+    color: yellow;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid yellow;
+    padding:10px 20px;
+}
+.hero4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.btn3{
+    background-color: hsla(67, 89%, 50%, 1);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    border: 1px;
+    padding: 20px 15px;
+}
+.text{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero5 img{
+    width: 100%;
+}
+.hero6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    color: white;
+}
+form{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: hsla(223, 51%, 15%, 1);
+    gap: 100px;
+    width: 419px;
+    border: none;
+    border-radius: 8px;
+}
+
+input {
+padding: 10px ;
+border-radius:8px ;
+border: 1px solid hsla(223, 51%, 15%, 1);
+margin: 8px;
+background-color: hsla(223, 51%, 15%, 1);
+}
+.btn4{
+    background-color: hsla(67, 89%, 50%, 1);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    border: 1px;
+    padding: 15px 18px;
+}
+.gas{
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    gap: 200px;
+    color: white;
+}
+.clook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+}
+.gas2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+}
+.x{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.NFT{
+    color: hsla(67, 89%, 50%, 1);
+}
+button:hover{
+    cursor: pointer;
+}
+button:focus{
+    animation: colorChange 2s;
+}
+@keyframes colorChange{
+    0%{background: #F57F17;}
+    100%{background: none;}
+}
